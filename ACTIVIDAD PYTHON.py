@@ -1,4 +1,4 @@
-'''nombre=input("ingrese su nombre:")
+nombre=input("ingrese su nombre:")
 print("hola",nombre,"mucho gusto")
 nombre1=input("ingrese su nombre:")
 edad=int(input("ingrese su edad"))
@@ -14,7 +14,7 @@ print("la potenciacion de los numeros es:",resultado)
 z=int(input("ingrese el numero deseado"))
 a=int(input("ingrese el numero deseado"))
 print("la multiplicacion de los numeros es:",z*a)
-print("la division de los numeros es:",z//a)'''
+print("la division de los numeros es:",z//a)
 
 
 
