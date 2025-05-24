@@ -13,7 +13,7 @@ n += 5
 print(n)
 
 y=20
-y=7
+y-=7
 print(y)
 
 p="el"
