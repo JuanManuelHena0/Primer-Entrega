@@ -106,8 +106,43 @@ suma88=sum(lista99)
 print("la suma de los elementos de la lista99 es:",suma88)
 
 print("EJERCICIO 15")
+ 
+lusta=[11,33,44]
+tupli=tuple(lusta)
+print("la tupla creada a partir de la lista es:",tupli)
 
-      
+print("EJERCICIO 16")
+
+te= (32,41,53)
+lis=len(te)
+lis.append(4)
+print("La Lista despues de agregar un numero es:",lis)
+
+print("EJERCICIO 17")
+
+ll=[80,58,16,40,112]
+tupla10=tuple(1)
+print("El tercer dato de la  TUPLA es:",tupla10[2])
+
+print("EJERCICIO 18")
+
+tupla11=(25,50,75)
+listq=list(tupla11)
+nuuu=int(input("Ingrese un numero para remplazar :"))
+listq[1]=nuuu
+print("La lista despues de remplazar el segundo elemento es:", listq)
+
+print("EJERCICIO 19")
+lita = [5,10,15,20]
+tupla12 = tuple(lita)
+print("La tupla tiene:",lita(tupla12), "elementos")
+
+print("EJERCICIO 20")
+
+tlp = (100,200,300,400,500)
+liss= list(tlp)
+list.pop()
+print("La lista despues de eliminar el ultimo elemento es:",liss)     
 
 
 
