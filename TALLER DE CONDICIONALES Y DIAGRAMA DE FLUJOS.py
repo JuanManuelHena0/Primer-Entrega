@@ -105,8 +105,14 @@
 # #EJERCICIOS CON LISTAS (con condicionales)
 
 #11.Crea una lista con 5 numeros.Si el tercer numero es mayor que 10,muestra "Mayor a 10",de lo contrario muestra "Menor o igual a 10".
-numero3=[1,2,11,12,5]
-if numero3[2] > 10:
+list=[]
+list.append=int(input("ingrese el primer numero:"))
+list.append=int(input("ingrese el segundo numero:"))
+list.append=int(input("ingrese el tercer numero:"))
+list.append=int(input("ingrese el cuarto numero:"))
+list.append=int(input("ingrese el quinto numero:"))
+print(list)
+if list[2] > 10:
     print("Mayor a 10")
 else:
     print("menor o igual a 10")
@@ -114,8 +120,12 @@ print("fin")
 
 #12.verifica si el numero 7 esta en la lista [3,5,7,9] si esta muestra,muestra "esta en la lista,de lo contrario muestra "No esta en la lista"
 
-lista=[3,4,7,9]
-print("Esta en la lista"if 7 in lista else "No esta en la lista")
+listaa=[]
+listaa.append=int(input("Ingrese el primer numero"))
+listaa.append=int(input("Ingrese el segundo numero"))
+listaa.append=int(input("Ingrese el tercer numero"))
+listaa.append=int(input("Ingrese el cuarto numero"))
+print("Esta en la lista"if 7 in listaa else "No esta en la lista")
 
 #13.Suma los dos primeros elementos de la lista [4,6,2,8].Si la suma es mayor que 10,muestra la suma es alta de lo contrario la suma es baja
 lista=[4,6,2,8]
@@ -182,4 +192,58 @@ else:
     print("Coordenada Baja")
 print("FIN")
 
-#20.center()
+#20.Compara si las tuplas (3,4) y (3,5) son iguales,si lo son,muestra "tuplas iguales",de lo contrario muestra "tuplas diferentes".
+tupla5=(3,4)
+tupla6=(3,5)
+if tupla5 == tupla6:
+    print("tuplas iguales")
+else:
+    print("tuplas diferentes")
+print("FIN")
+
+#EJERCICIOS CON DICCIONARIOS (con condicionales)
+
+#21.Crea un diccionario con ("nombre": "Juan", "edad": 17) si la edad es mayor que 18,muestra "Mayor de edad",de lo contrario muestra "Menor de edad".
+
+diccionary={"nombre": "Juan", "edad": 17}
+if diccionary["edad"] > 18:
+    print("Mayor de edad")
+elif diccionary["edad"] == 18:
+    print("Tiene 18 años, es mayor de edad")
+else:
+    print("Menor de edad")
+print("FIN")
+
+#22.Crea un diccionario("nombre": "Lucia", "Edad": 20).Si la edad es mayor a 18,cambia el valor de la "edad" a 21.Luego muestra el diccinario.
+
+Diccio={"nombre": "Lucia", "Edad": 20}
+if Diccio["Edad"] > 18:
+    Diccio["Edad"] = 21
+print("Diccio")
+print("FIN")
+
+#23.Crea un diccionario con ("nombre": "Carlos", "edad").Si la clave "ciudad" no existe,agregale con el valor "Bogota" y muestralo en diccionario.
+
+diccionario_numero8000={"nombre": "Carlos", "edad": 20}
+if "ciudad" not in diccionario_numero8000:
+    diccionario_numero8000["ciudad"] = "Bogota"
+print(diccionario_numero8000)
+print("FIN")
+
+#24.Dado el diccionario ("producto": "pan", "precio":$1200),verifica si la clave "precio" existe.Si existe,muestra su valor,si no muestra "no hay precio".
+
+diccionario_producto={"producto": "pan", "precio": 1200}
+if "precio" in diccionario_producto:
+    print("el precio es $1200 por un  de pan")
+else:
+    print("no hay precio")
+print("FIN")
+
+#25.Crea un diccionario con ("pan": 1200,"leche: 2000".  Si "pan"esta en el diccionario,muestra su precio;si no muestra "producto no disponible"
+ 
+diccio_numero7123={"pan": 1200, "leche": 2000}
+if "pan" in diccio_numero7123:
+    print("el precio del pan es $1200")
+else:
+    print("producto no disponible")
+print("FIN")
