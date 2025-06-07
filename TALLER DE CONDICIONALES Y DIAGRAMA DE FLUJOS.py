@@ -1,106 +1,106 @@
 # #EJERCICIOS CON CONDICIONALES Y OPERACIONES MATEMATICAS
 # #1. Solicitar un número al usuario y determinar si es positivo, negativo o cero.
-# nume=int(input("ingrese un numero:"))
-# if nume>0:
-#     print("el numero es positivo")
-# elif nume==0:
-#     print("el numero es cero")
-# elif nume<0:
-#     print("El numero es negativo")
-# else:
-#      print("El numero no es valido")
-# print("fin")
+nume=int(input("ingrese un numero:"))
+if nume>0:
+    print("el numero es positivo")
+elif nume==0:
+    print("el numero es cero")
+elif nume<0:
+    print("El numero es negativo")
+else:
+     print("El numero no es valido")
+print("fin")
     
 # #2.Calcula el mayor de dos numeros ingresados
 
-# num1=int(input("ingrese el primer numero:"))
-# num2=int(input("ingrese el segundo numero:"))
-# if num1>num2:
-#     print("el numero mayor es:", num1)
-# elif num2<num1:
-#     print("el numero mayor es:", num2)
+num1=int(input("ingrese el primer numero:"))
+num2=int(input("ingrese el segundo numero:"))
+if num1>num2:
+    print("el numero mayor es:", num1)
+elif num2<num1:
+    print("el numero mayor es:", num2)
     
-# else:
-#     print("los numeros son iguales")
-# print("fin")
+else:
+    print("los numeros son iguales")
+print("fin")
 
 # #3.Determina si el numero es par o impar
-# num3=int(input("ingrese un numero:"))
-# if num3%2==0:
-#     print("el numero es par")
-# elif num3%2!=0:  
-#     print("el numero es impar")
+num3=int(input("ingrese un numero:"))
+if num3%2==0:
+    print("el numero es par")
+elif num3%2!=0:  
+    print("el numero es impar")
 
 # #4.Dado un numero verifiva si esta entre 10 y 20
-# num4=int(input("ingrese un numero:"))
-# if num4>=10 and num4<=20:
-#     print("el numero esta entre 10 y 20")
-# else:
-#     print("el numero no esta entre 10 y 20")
-# print("fin")
+num4=int(input("ingrese un numero:"))
+if num4>=10 and num4<=20:
+    print("el numero esta entre 10 y 20")
+else:
+    print("el numero no esta entre 10 y 20")
+print("fin")
 
 # #5.Dado tres numeros,encuentra el mayor usando condicionales
-# num5=int(input("ingrese el primer numero:"))
-# num6=int(input("ingrese el segundo numero:"))
-# num7=int(input("ingrese el tercer numero:"))
-# if num5>num6 and num5>num7:
-#     print("el numero mayor es:", num5)
-# elif num6>num5 and num6>num7:
-#     print("el numero mayor es:", num6)
-# elif num7>num5 and num7>num6:
-#     print("el numero mayor es:", num7)
-# else:
-#     print("los numeros son iguales")
-# print("fin")
+num5=int(input("ingrese el primer numero:"))
+num6=int(input("ingrese el segundo numero:"))
+num7=int(input("ingrese el tercer numero:"))
+if num5>num6 and num5>num7:
+    print("el numero mayor es:", num5)
+elif num6>num5 and num6>num7:
+    print("el numero mayor es:", num6)
+elif num7>num5 and num7>num6:
+    print("el numero mayor es:", num7)
+else:
+    print("los numeros son iguales")
+print("fin")
 
 # #6.Calcula el precio final con un 10% de descuento si el total es mayor a $100.
-# precio_producto=float(input("ingrese el precio del producto:"))
-# if precio_producto>100:
-#     descuento=precio_producto*0.10
-#     precio_final=precio_producto-descuento
-#     print("el precio final con descuento es:", precio_final)
-# print("fin")
+precio_producto=float(input("ingrese el precio del producto:"))
+if precio_producto>100:
+    descuento=precio_producto*0.10
+    precio_final=precio_producto-descuento
+    print("el precio final con descuento es:", precio_final)
+print("fin")
 
 # #7.verifica si una persona puede votar (mayor o igual a 18 años)
-# edad=int(input("ingrese su edad:"))
-# if edad==18:
-#     print("puede votar")
-# elif edad>18:
-#     print("puede votar")
-# else:
-#     print("no puede votar")
-# print("fin")
+edad=int(input("ingrese su edad:"))
+if edad==18:
+    print("puede votar")
+elif edad>18:
+    print("puede votar")
+else:
+    print("no puede votar")
+print("fin")
 
-# #8.Dado el precio y tipo de cliente (VIP,NORMAL),aplica un descuento del 2O% solo a VIP.
-# precio=float(input("ingrese el precio del producto:"))
-# tipo=input("ingrese el tipo de cliente:")
-# if tipo == "vip":
-#     descuento = precio * 0.20
-#     precio_final = precio - descuento
-#     print("El precio final para cliente VIP es:", precio_final)
-# elif tipo == "normal":
-#     print("El precio para cliente normal es:", precio)
-# print("fin")
+#8.Dado el precio y tipo de cliente (VIP,NORMAL),aplica un descuento del 2O% solo a VIP.
+precio=float(input("ingrese el precio del producto:"))
+tipo=input("ingrese el tipo de cliente:")
+if tipo == "vip":
+    descuento = precio * 0.20
+    precio_final = precio - descuento
+    print("El precio final para cliente VIP es:", precio_final)
+elif tipo == "normal":
+    print("El precio para cliente normal es:", precio)
+print("fin")
 
-# #9.Determina si un numero es multiplonden5 y 3 al mismo tiempo.
+#9.Determina si un numero es multiplonden5 y 3 al mismo tiempo.
 
-# numero1=int(input("ingrese un numero:"))
-# if numero1%5==0 and numero1%3==0:
-#     print("el numero es multiplo de 5 y 3")
-# else:
-#     print("el numero no es multiplo de 5 y 3")
-# print("fin")
+numero1=int(input("ingrese un numero:"))
+if numero1%5==0 and numero1%3==0:
+    print("el numero es multiplo de 5 y 3")
+else:
+    print("el numero no es multiplo de 5 y 3")
+print("fin")
 
-# #10.Dado un numero,verifica si es divisible entre dos o mas datos.
+#10.Dado un numero,verifica si es divisible entre dos o mas datos.
 
-# numero2=int(input("ingrese un numero:"))
-# divisor1=int(input("ingrese el primer divisor:"))
-# divisor2=int(input("ingrese el segundo divisor:"))
-# if numero2%divisor1==0 and numero2%divisor2==0:
-#     print("el numero es divisible entre", divisor1, "y", divisor2)
-# else:
-#     print("el numero no es divisible entre", divisor1, "y", divisor2)
-# print("fin")
+numero2=int(input("ingrese un numero:"))
+divisor1=int(input("ingrese el primer divisor:"))
+divisor2=int(input("ingrese el segundo divisor:"))
+if numero2%divisor1==0 and numero2%divisor2==0:
+    print("el numero es divisible entre", divisor1, "y", divisor2)
+else:
+    print("el numero no es divisible entre", divisor1, "y", divisor2)
+print("fin")
 
 # #EJERCICIOS CON LISTAS (con condicionales)
 
@@ -246,4 +246,4 @@ if "pan" in diccio_numero7123:
     print("el precio del pan es $1200")
 else:
     print("producto no disponible")
-print("FIN")
+print("FIN") #el mejor programador
