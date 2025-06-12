@@ -1,0 +1,3 @@
+Las estructuras de codificación están bien presentadas y muestran una lógica clara y organizada. ¡Buen trabajo! Como recomendación para seguir mejorando la calidad de tus proyectos, sería ideal que documentes con mayor detalle las líneas de código. Esto no solo facilitará la comprensión para otras personas que consulten tu repositorio, sino que también te será útil a ti misma para futuras revisiones o ampliaciones del proyecto.
+
+Agregar comentarios explicativos, tanto sobre la funcionalidad general del código como sobre bloques o líneas clave, puede marcar una gran diferencia en la presentación y profesionalismo de tu trabajo. Además, te ayudará a fortalecer tus habilidades como desarrolladora y a comunicar mejor tus ideas en entornos colaborativos.
