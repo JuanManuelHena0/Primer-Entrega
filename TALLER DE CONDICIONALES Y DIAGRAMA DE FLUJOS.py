@@ -128,8 +128,12 @@ listaa.append=int(input("Ingrese el cuarto numero"))
 print("Esta en la lista"if 7 in listaa else "No esta en la lista")
 
 #13.Suma los dos primeros elementos de la lista [4,6,2,8].Si la suma es mayor que 10,muestra la suma es alta de lo contrario la suma es baja
-lista=[4,6,2,8]
-ope=4+6+2+8
+list12=[]
+list12.append=int(input("Ingrese el primer numero"))
+list12.append=int(input("Ingrese el segundo numero"))
+list12.append=int(input("Ingrese el tercer numero"))
+list12.append=int(input("Ingrese el cuarto numero"))
+ope=list12[0]+list12[1]
 print("El resultado de la suma es:", ope , "por lo tanto")
 if ope > 10:
     print("la suma es alta")
