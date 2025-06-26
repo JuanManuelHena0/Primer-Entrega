@@ -1,4 +1,5 @@
-N1= int(input("Ingrese el primer numero"))
+# N1= int(input("Ingrese el primer numero"))
+N1=int(input("Ingrese el primer numero"))
 N2= int(input("Ingrese el segudno numero"))
 N3= int(input("Ingrese el tercer numero"))
 N4= int(input("Ingrese el cuarto numero"))

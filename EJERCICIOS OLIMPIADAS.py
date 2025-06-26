@@ -39,6 +39,4 @@ else:
 
 
 
-#EJERCICIO 1 GRUPO 4 DEL TALLER OLIMPIADAS 3
-print("")
 
